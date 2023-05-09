@@ -4,6 +4,11 @@ shell脚本以 .sh 为扩展名，其中 #! 是一个约定的标记，它告诉
 #!/bin/bash
 echo "Hello World !"
 ```
+保存好脚本后更改可执行权限后即可运行
+```shell
+chmod +x ./test.sh
+./test.sh
+```
 #### shell变量
 ##### 定义和使用变量
 以下是一个使用变量的例子。shell 语言以#表示每行注释。
