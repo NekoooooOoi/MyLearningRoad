@@ -125,7 +125,7 @@ writer.println("..");
 Files.write(path,"Hello".getBytes(StandardCharsets.UTF-8));
 
 //4.
-try(BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileWriter(filename)))){
+try(BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filename)))){
     bw.write("Hello");
     bw.flush();
 };
